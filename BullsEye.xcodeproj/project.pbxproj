@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872B6E59202AD55200C9B302 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 87AEB4D31FD45B1A009AFAA4 /* BullsEye.html */; };
+		872B6E5B202AD98700C9B302 /* AboutAuthor.html in Resources */ = {isa = PBXBuildFile; fileRef = 872B6E5A202AD98700C9B302 /* AboutAuthor.html */; };
 		87AEB4BE1FD39F75009AFAA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEB4BD1FD39F75009AFAA4 /* AppDelegate.swift */; };
 		87AEB4C01FD39F75009AFAA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEB4BF1FD39F75009AFAA4 /* ViewController.swift */; };
 		87AEB4C31FD39F75009AFAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AEB4C11FD39F75009AFAA4 /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872B6E5A202AD98700C9B302 /* AboutAuthor.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AboutAuthor.html; sourceTree = "<group>"; };
 		87AEB4BA1FD39F75009AFAA4 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AEB4BD1FD39F75009AFAA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87AEB4BF1FD39F75009AFAA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 				87AEB4C61FD39F76009AFAA4 /* LaunchScreen.storyboard */,
 				87AEB4C91FD39F76009AFAA4 /* Info.plist */,
 				87AEB4CF1FD3FF58009AFAA4 /* AboutViewController.swift */,
+				872B6E5A202AD98700C9B302 /* AboutAuthor.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -131,8 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872B6E59202AD55200C9B302 /* BullsEye.html in Resources */,
 				87AEB4C81FD39F76009AFAA4 /* LaunchScreen.storyboard in Resources */,
 				87AEB4C51FD39F75009AFAA4 /* Assets.xcassets in Resources */,
+				872B6E5B202AD98700C9B302 /* AboutAuthor.html in Resources */,
 				87AEB4C31FD39F75009AFAA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
