@@ -21,10 +21,8 @@ class ViewController: UIViewController {
     var ctr = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let thumbImageNormal = UIImage(named:"SliderThumb-Normal")
         slider.setThumbImage(thumbImageNormal, for: .normal)
-        
         let thumbImageHighlighted = UIImage(named:"SliderThumb-Highlidhted")
         slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
         
