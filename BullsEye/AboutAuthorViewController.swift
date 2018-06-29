@@ -19,6 +19,8 @@ class AboutAuthorViewController: UIViewController {
                 let baseURL = URL(fileURLWithPath: Bundle.main.bundlePath)
                 webView.load(htmlData, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
                 
+            } else {
+                print("data not loaded");
             }
         }
         
